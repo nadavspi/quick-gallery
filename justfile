@@ -4,4 +4,5 @@ build:
 start:
   npx http-server dist
 
-
+deploy:
+  npx netlify deploy --dir dist --prod
